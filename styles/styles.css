@@ -8,6 +8,10 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
 }
+.popular{
+    padding-top: 10px;
+    margin: 0 40px;
+}
 .popular-courses h2{
     font-size: 45px;
 }
@@ -40,4 +44,25 @@ body {
    .course-info h4{
     color: #289BDE;
    }
-  
+   .registration{
+    display: flex;
+    height: 200px;
+    background: #289BDE;
+    border-radius: 5px;
+    margin: 0 40px;
+    padding-top: 5px;
+}
+   
+
+    .registration .info p{
+        margin: 40px;
+        color: white;
+    }
+    .company{
+        text-align: center;
+        padding: 30px;
+    }
+    .company-image{
+        margin-left: 200px;
+        grid-template-columns: 30px;
+    }
