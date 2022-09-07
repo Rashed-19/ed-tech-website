@@ -1,0 +1,43 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+.popular-courses{
+    text-align: center;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+.popular-courses h2{
+    font-size: 45px;
+}
+.popular-courses p{
+    font-size: 15px;
+    color: #777777;
+    padding: 20px;
+}
+.course{
+    display: flex;
+}
+
+.course .thumbnail img{
+    height: 200px;
+    width: 200px;
+}
+   .course-info{
+    margin-left: 16px;
+    padding: 30px;
+   }
+   
+   .course-title{
+    font-size: 25px;
+   }
+   .courses{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+   }
+   .course-info h4{
+    color: #289BDE;
+   }
+  
