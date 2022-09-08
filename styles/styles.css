@@ -51,6 +51,8 @@ body {
     border-radius: 5px;
     margin: 0 40px;
     padding-top: 5px;
+    justify-content: space-around;
+    align-items: center;
 }
    
 
